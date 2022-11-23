@@ -27,7 +27,7 @@ WORKING WITH VARIABLES:
 - Can be assigned by enclosing in paranthesis ()
 - Access array elemennts the same way u do in  other languages
 
-  OPERATORS:
+  ###OPERATORS:
 - The same as in other languages
 -  
    FILE OPERATORS
@@ -40,10 +40,10 @@ WORKING WITH VARIABLES:
 - x executed
 - s checks size >0 true
 
- USERS AND GROUPS:
+###USERS AND GROUPS:
  - groups are a group of users 
  - add user using useradd 
  - add group using groupadd -p 
  - use id to check the group
  - sudoers users that can use sudo
- - 
+ -
