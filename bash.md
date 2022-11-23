@@ -2,7 +2,7 @@
  
 -  all scripts start with #!/bin/bash
 
-WORKING WITH VARIABLES:
+#### WORKING WITH VARIABLES:
 
 - Scalar variables can only story one value at a time
 - Assignement is the same like in programming languages
@@ -22,15 +22,15 @@ WORKING WITH VARIABLES:
    -  $* all args as one string
    - ``` read -p 'prompt' variable ``` takes input and assigns to a
    
-   BASH ARRAYS: 
+   ### BASH ARRAYS: 
 
 - Can be assigned by enclosing in paranthesis ()
 - Access array elemennts the same way u do in  other languages
 
-  ###OPERATORS:
+  ### OPERATORS:
 - The same as in other languages
--  
-   FILE OPERATORS
+
+   ### FILE OPERATORS
 - b checks if its a block special file
 - c character special
 - d directory exists
@@ -40,7 +40,7 @@ WORKING WITH VARIABLES:
 - x executed
 - s checks size >0 true
 
-###USERS AND GROUPS:
+### USERS AND GROUPS:
  - groups are a group of users 
  - add user using useradd 
  - add group using groupadd -p 
