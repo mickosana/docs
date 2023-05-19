@@ -155,4 +155,22 @@ MANAGING STORAGE:**
   - `systat` and `iotop`  are good at reporting the iops of the system
   - `iotop` shows the usages by process
   MOUNTING REMOVABLE DRIVES:
-  - 
+  - `dmsg -w` allows you to see logs for the removable
+  - `sudo mkdir /mnt/usb`
+  - `sudo mount /ev/sdb1 /mnt/usb`
+  - `use umount`  to safely unmount
+  - for dvd drive:
+	  - most distros have an alias that points sr0
+	  - `sudo mount  -t iso9660 /dev/cdrom /mnt/cdrom`
+	  - to eject the cd rom you can type `eject`
+MOUNTING FIXED DISKS:
+- `lspci and lsblk ` show the list of drives
+-  to tell a system to mount the disk when the  system boots up
+	- use `/etc/fstab`
+	- `mount` lists the list of mounts on your system
+	- `run sudoedit /etc/fstab`
+	- add the line with ` <device> mnt_point <fs>  <default> 0 2`
+	- `exec|noexec` prevents or allow executables on fs
+	- `auto|noauto` auto mount vs no auto mount
+	- `mount -A ` is a way to test using the entries in `/etc/fstab`  to test if mounts work
+	- 
